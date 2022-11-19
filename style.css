@@ -391,7 +391,7 @@ header .master_play .vol input{
  }
  header .song_side nav .search{
    position: relative;
-   width: 50%;
+   width: 40%;
    padding: 1px 10px;
    border-radius: 20px;
    color: gray;
@@ -411,6 +411,7 @@ header .master_play .vol input{
     padding: 3px 0px 0px 10px;
  }
  header .song_side nav .search input{
+    width: 60%;
     background: none;
     outline: none;
     border: none;
