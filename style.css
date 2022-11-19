@@ -203,7 +203,7 @@ header .master_play img {
     height: 35px;
 }
 header .master_play h5 {
-    width: 130px;
+    width: 80px;
     font-size: 13px;
     margin-left: 15px;
     color: #fff;
@@ -216,7 +216,7 @@ header .master_play h5 .subtitle{
 header .master_play .icon{
    font-size: 20px;
    color: #fff;
-   margin: 0px 20px 0px 40px;
+   margin: 0px 0px 0px 0px;
    outline: none;
 }
 header .master_play .icon .bi{
@@ -227,7 +227,7 @@ header .master_play .icon .bi:nth-child(2){
 border: 1px solid rgb(105, 105, 170,.1);
 border-radius: 50%;
 padding: 1px 4px 0px 6px;
-margin: 0px 5px;
+margin: 0px 15px;
 transition: .3s linear;
 }
 
@@ -243,7 +243,7 @@ header .master_play #currentStart{
 
 header .master_play .bar {
     position: relative;
-    width: 43%;
+    width: 25%;
     height: 2px;
     background: rgb(105, 105, 170,.1);
     margin: 0px 15px 0px 10px;
@@ -391,7 +391,7 @@ header .master_play .vol input{
  }
  header .song_side nav .search{
    position: relative;
-   width: 40%;
+   width: 50%;
    padding: 1px 10px;
    border-radius: 20px;
    color: gray;

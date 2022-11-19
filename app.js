@@ -1,18 +1,18 @@
-const music = new Audio('vande.mp3');
-
+const music = new Audio('疲倦青年.mp3');
+music.volume = 0.20;
 // create Array 
 
 const songs = [
     {
         id:'1',
-        songName:` On My Way <br>
-        <div class="subtitle">Alan Walker</div>`,
+        songName:` 疲倦青年 <br>
+        <div class="subtitle">王凌韵</div>`,
         poster: "img/1.jpg"
     },
     {
         id:'2',
-        songName:` Alan Walker-Fade <br>
-        <div class="subtitle">Alan Walker</div>`,
+        songName:` 文明的巨人 <br>
+        <div class="subtitle">王凌韵</div>`,
         poster: "img/2.jpg"
     },
     // all object type 
@@ -200,6 +200,7 @@ let vol = document.getElementById('vol');
 let vol_dot = document.getElementById('vol_dot');
 let vol_bar = document.getElementsByClassName('vol_bar')[0];
 
+
 vol.addEventListener('change', ()=>{
     if (vol.value == 0) {
         vol_icon.classList.remove('bi-volume-down-fill');
@@ -216,13 +217,12 @@ vol.addEventListener('change', ()=>{
         vol_icon.classList.remove('bi-volume-mute-fill');
         vol_icon.classList.add('bi-volume-up-fill');
     }
-
+    
     let vol_a = vol.value;
     vol_bar.style.width = `${vol_a}%`;
     vol_dot.style.left = `${vol_a}%`;
     music.volume = vol_a/100;
 })
-
 
 
 let back = document.getElementById('back');
